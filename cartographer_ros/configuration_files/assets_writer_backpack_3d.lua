@@ -80,6 +80,14 @@ options = {
       filename = "xray_xz_all_color",
       transform = XZ_TRANSFORM,
     },
+    {
+      action = "write_ply",
+      filename = "points.ply",
+    },
+    {
+      action = "write_pcd",
+      filename = "points.pcd",
+    },
   }
 }
 
