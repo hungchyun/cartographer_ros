@@ -1,0 +1,6 @@
+<launch>
+  <node pkg="rosbag" type="play" name="player" output="screen" args="--clock /home/hcchou/Project/dataset/SLAM/AIRS/zed2/2020-10-19-16-26-49/2020-10-19-16-26-49_cut.bag">
+    <!--remap from="points2_1" to="horizontal_laser_3d" />
+    <remap from="points2_2" to="vertical_laser_3d" /-->
+  </node>
+</launch>
