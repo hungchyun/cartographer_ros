@@ -26,7 +26,7 @@
           -configuration_directory $(find cartographer_ros)/configuration_files
           -configuration_basename zed2.lua"
       output="screen">
-    <remap from="points2" to="/zed2/zed_node/point_cloud/cloud_registered" />
+    <remap from="points2" to="/zed2/zed_node/point_cloud/cloud_registered_modified" />
     <remap from="imu" to="/zed2/zed_node/imu/data" />
   </node>
 
